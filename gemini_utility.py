@@ -24,9 +24,9 @@ def gemini_pro_vision_response(prompt, image):
   result = response.text
   return result
 
-image = Image.open("./src_3/test_image.png")
+#image = Image.open("./src_3/test_image.png")
 
-prompt = "Write a short caption for this image"
+#prompt = "Write a short caption for this image"
 
 #output = gemini_pro_vision_response(prompt, image)
 #print(output)
